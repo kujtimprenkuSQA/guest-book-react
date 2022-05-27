@@ -1,8 +1,15 @@
 {
-  "name": "my-app-typescript",
+  "name": "wallet-selector-react",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@near-wallet-selector/core": "^4.0.0-alpha.1",
+    "@near-wallet-selector/ledger": "^4.0.0-alpha.1",
+    "@near-wallet-selector/math-wallet": "^4.0.0-alpha.1",
+    "@near-wallet-selector/modal-ui": "^4.0.0-alpha.1",
+    "@near-wallet-selector/near-wallet": "^4.0.0-alpha.1",
+    "@near-wallet-selector/sender": "^4.0.0-alpha.1",
+    "@near-wallet-selector/wallet-connect": "^4.0.0-alpha.1",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.2.0",
     "@testing-library/user-event": "^13.5.0",
@@ -10,16 +17,18 @@
     "@types/node": "^16.11.36",
     "@types/react": "^18.0.9",
     "@types/react-dom": "^18.0.5",
+    "buffer": "^6.0.3",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "react-scripts": "5.0.1",
     "typescript": "^4.7.2",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "webpack": "^5.72.1"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -39,5 +48,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/big.js": "^6.1.3",
+    "react-app-rewired": "^2.2.1"
   }
 }
