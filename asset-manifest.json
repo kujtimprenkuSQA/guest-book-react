@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/guest-book-react/static/css/main.617c7f07.css",
-    "main.js": "/guest-book-react/static/js/main.b875968f.js",
+    "main.css": "/guest-book-react/static/css/main.b850e0c5.css",
+    "main.js": "/guest-book-react/static/js/main.b0a1f64d.js",
+    "static/js/252.94378ecf.chunk.js": "/guest-book-react/static/js/252.94378ecf.chunk.js",
     "static/js/787.6f6032d0.chunk.js": "/guest-book-react/static/js/787.6f6032d0.chunk.js",
     "index.html": "/guest-book-react/index.html",
-    "main.617c7f07.css.map": "/guest-book-react/static/css/main.617c7f07.css.map",
-    "main.b875968f.js.map": "/guest-book-react/static/js/main.b875968f.js.map",
+    "main.b850e0c5.css.map": "/guest-book-react/static/css/main.b850e0c5.css.map",
+    "main.b0a1f64d.js.map": "/guest-book-react/static/js/main.b0a1f64d.js.map",
+    "252.94378ecf.chunk.js.map": "/guest-book-react/static/js/252.94378ecf.chunk.js.map",
     "787.6f6032d0.chunk.js.map": "/guest-book-react/static/js/787.6f6032d0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.617c7f07.css",
-    "static/js/main.b875968f.js"
+    "static/css/main.b850e0c5.css",
+    "static/js/main.b0a1f64d.js"
   ]
 }
